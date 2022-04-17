@@ -1,9 +1,9 @@
 {
   "name": "TamilVcMusic",
-  "logo": "https://telegra.ph/file/a948caa899055d6109fad.jpg",
+  "logo": "",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TamilBots/TamilVcMusic",
+  "repository": "https://github.com/AzeMusic/vcbot",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -17,6 +17,7 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string Get From : https://replit.com/@TamilBots/TAMILVCBOT#main.py",
       "required": true
+      "value": "AgBcrxC792GvIYKwh7FGadf5tv2wr9dz8LtWXXh2Nfr6sQZDV9nw1EKSPODOX6vVcF9LoaGxuWYv8qmwjaYe85HZtYlXaYNpNvepKTOAs_f6CFoRTkKUKIr6jzIYNQxU8dSOwsP1zVaOD9s-xKh3teZJakEoHL74QVJz-uRSrTLpL9JvG7mFP3Txq8L4C5pNLbYkSQFo9PCvMwvzfX8AtnqZNRfJr83TaqSPVoYwR9hK3D0G8nk_40pb4Xgo3SU9IZAg6ZVJ4kxgkbDr1_q8kz6fJ5gm07ATIizikJG190kzmr2yloxZhT3aczsUmRu797ho6K_mhQ0tptTL13UPbu6gWp7lFQA"
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
@@ -29,17 +30,17 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": ""
+      "value": "LedyMusic"
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "TamilSupport"
+      "value": "SOQrup"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "TamilVc V 0.0.1"
+      "value": "VC Bot V 0.0.1"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -58,11 +59,12 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "TamilBots"
+      "value": "ledyplaylist"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
+      "value": "12630280"
     },
     "PMPERMIT": {
       "description": "Change to turn off",
@@ -72,15 +74,17 @@
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
+      "value": "b6cf974f15dddbfb06996f40586b579c"
     },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
+
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "15"
     }
   }
 }
