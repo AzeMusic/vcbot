@@ -30,7 +30,7 @@ async def addchannel(client, message):
         await USER.send_message(message.chat.id, "Sizin xahiş etdiyiniz kimi bura qoşuldum")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your chat</b>",
+            "<b>Assistant artıq söhbətinizdədir</b>",
         )
     except Exception as e:
         print(e)
