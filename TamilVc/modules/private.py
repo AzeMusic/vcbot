@@ -26,7 +26,7 @@ def _start(client, message):
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**🔴 {PROJECT_NAME} onlayındır**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/TamilSupport")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🛠️ Support Chat", url=f"https://t.me/SOQrup")]]),
     )
 
 
