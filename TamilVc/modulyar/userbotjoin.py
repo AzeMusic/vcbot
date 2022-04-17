@@ -115,6 +115,6 @@ async def addcchannel(client, message):
         )
         return
     await message.reply_text(
-        "<b>helper userbot joined your channel</b>",
+        "<b>Assistant kanalınıza qoşuldu</b>",
     )
     
