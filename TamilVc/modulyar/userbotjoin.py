@@ -36,7 +36,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Daşqın Gözləmə Xətası 🛑 \n İstifadəçi {user.first_name} Assistant üçün çoxlu qoşulma sorğuları səbəbindən qrupunuza qoşula bilmədi! Assistantın qrupda qadağan edilmədiyinə əmin olun."
-            f"\n\nOr manually add **@{ASSISTANT_NAME}** to your Group and try again</b>",
+            f"\n\nvəya özünüz **@{ASSISTANT_NAME}** Qrupa əlavə edin və təkrar cəhd edin</b>",
         )
         return
     await message.reply_text(
