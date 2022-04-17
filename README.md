@@ -1,18 +1,18 @@
 # TamilVcMusic
 
-<h1 align="centre">🌟TamilVCMusicBot🌟</h1>
+<h1 align="centre">🌟VCMusicBot🌟</h1>
 
 ## Give your 💙
 
 Before clicking on deploy to heroku just click on fork and star just below
 
 <p align="center">
-  <a href="https://github.com/TamilBots/TamilVCMusic/fork">
-    <img src="https://img.shields.io/github/forks/TamilBots/TamilVCMusic?label=Fork&style=social">
+  <a href="https://github.com/AzeMusic/vcbot/fork">
+    <img src="https://img.shields.io/github/forks/AzeMusic/vcbot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/TamilBots/TamilVCMusic">
-    <img src="https://img.shields.io/github/stars/TamilBots/TamilVCMusic?style=social">
+  <a href="https://github.com/AzeMusic/vcbot">
+    <img src="https://img.shields.io/github/stars/AzeMusic/vcbot?style=social">
   </a>
 </p>
 
@@ -30,7 +30,7 @@ Click the below button to watch the video tutorial on deploying
 ### Click Below Button to Deploy
 
 
-<a href="https://heroku.com/deploy?template=https://github.com/TamilBots/TamilVCMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/AzeMusic/vcbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
 
 ###  GET STRING SESSION FROM REPL RUN
 
