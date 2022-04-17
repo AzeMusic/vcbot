@@ -110,8 +110,8 @@ async def addcchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            f"\n\nOr manually add **@{ASSISTANT_NAME}** to your Group and try again</b>",
+            f"<b>🛑 Daşqın Gözləmə Xətası 🛑 \n İstifadəçi {user.first_name} Assistant üçün çoxlu qoşulma sorğuları səbəbindən qrupunuza qoşula bilmədi! Assistantın qrupda qadağan edilmədiyinə əmin olun."
+            f"\n\nveya özünüz **@{ASSISTANT_NAME}** əlavə edin və yenidən başladın</b>",
         )
         return
     await message.reply_text(
