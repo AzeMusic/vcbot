@@ -1,6 +1,6 @@
 {
-  "name": "TamilVcMusic",
-  "logo": "",
+  "name": "LedyVcMusic",
+  "logo": "https://telegra.ph/file/a948caa899055d6109fad.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/AzeMusic/vcbot",
@@ -17,7 +17,6 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string Get From : https://replit.com/@TamilBots/TAMILVCBOT#main.py",
       "required": true
-     
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
@@ -30,17 +29,17 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-    
+      "value": ""
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "SOQrup"
+      "value": "TamilSupport"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "VC Bot V 0.0.1"
+      "value": "TamilVc V 0.0.1"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -59,12 +58,11 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "ledyplaylist"
+      "value": "TamilBots"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
-    
     },
     "PMPERMIT": {
       "description": "Change to turn off",
@@ -74,12 +72,10 @@
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
-      
     },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
-
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
