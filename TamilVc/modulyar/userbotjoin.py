@@ -90,7 +90,7 @@ async def addcchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor channel first</b>",
+            "<b>Əvvəlcə məni kanalına admini olaraq əlavə et</b>",
         )
         return
 
@@ -104,7 +104,7 @@ async def addcchannel(client, message):
         await USER.send_message(message.chat.id, "I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your channel</b>",
+            "<b>Assistant artıq kanalınızdadır</b>",
         )
         return
     except Exception as e:
