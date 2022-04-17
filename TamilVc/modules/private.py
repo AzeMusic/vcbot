@@ -11,12 +11,12 @@ def _start(client, message):
         text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("✨məni qrupa əlave et", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📲 Updates", url=f"https://t.me/TamilBots"), 
-            InlineKeyboardButton("💬 Support", url=f"https://t.me/TamilSupport")
+            InlineKeyboardButton("📲 Kanal", url=f"https://t.me/ledyplaylist"), 
+            InlineKeyboardButton("🛠️ Dəstək", url=f"https://t.me/SOQrup")
             ],[
-            InlineKeyboardButton("🛠 Source Code 🛠", url=f"{SOURCE_CODE}")
+            InlineKeyboardButton("😈 Owner", url=f"https://t.me/Tenha055")
           ]]
         ),
         reply_to_message_id=message.message_id
